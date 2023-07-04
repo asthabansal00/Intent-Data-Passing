@@ -32,6 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter your name"
+        android:id="@+id/etname"
         android:textSize="20sp" />
 
     <TextView
@@ -51,7 +52,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Phone Number"
-        android:inputType="number"
         android:textColor="@color/black"
         android:textSize="25sp" />
 
@@ -60,6 +60,7 @@
         android:layout_height="wrap_content"
         android:hint="Enter your phone number"
         android:inputType="number"
+        android:maxLength="10"
         android:textSize="20sp" />
 
     <Button

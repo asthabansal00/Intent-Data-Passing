@@ -43,7 +43,8 @@
         android:layout_height="160dp"
         android:id="@+id/viewblue4"
         android:layout_below="@id/viewblue3"
-        android:layout_alignParentBottomRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
         android:layout_margin="20dp"
         android:background="@color/blue" />
 </RelativeLayout>
